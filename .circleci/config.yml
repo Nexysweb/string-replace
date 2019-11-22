@@ -43,22 +43,3 @@ jobs:
 
       # run tests!
       - run: yarn test
-
-      - run:
-          filters:
-              tags:
-                 only: /^v.*/
-          name: Publish to NPM
-          command: |
-            yarn build
-            npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN
-            npm publish
-        #  npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN
-        #  npm publish
-
-
-
-# here automatially push to npm registry
-# yarn build
-# npm version patch
-# npm publish
