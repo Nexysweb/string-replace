@@ -1,6 +1,6 @@
 {
   "name": "@nexys/string-replace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@nexys/uibs4": "0.0.4",
