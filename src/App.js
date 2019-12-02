@@ -31,7 +31,7 @@ const readFile = async event => new Promise((resolve, reject) => {
 function App() {
   const [ name, setName ] = useState(nameDefault);
   const [ dict, setDict ] = useState(JSON.stringify(mapDefault));
-  const [ result, setResult ] = useState('');
+  //const [ result, setResult ] = useState('');
   const [ dl, setDl ] = useState(null);
 
   const handleSubmit = evt => {
@@ -44,7 +44,7 @@ function App() {
     // display button to download
     setDl(toUrl(r));
     // displays result
-    setResult(r);
+    //setResult(r);
   }
 
   const loadFile = evt => {
@@ -63,13 +63,13 @@ function App() {
     return <a href={dl} download={filename}>Download</a>
   }
 
-  const renderResult = () => {
+  /*const renderResult = () => {
     if (!result) {
       return null;
     }
 
     return <pre>{result}</pre>;
-  }
+  }*/
 
   return (
     <div className="container">
