@@ -1,7 +1,7 @@
 {
   "name": "@nexys/string-replace",
   "version": "0.1.1",
-  "private": true,
+  "license": "MIT",
   "dependencies": {
     "@nexys/uibs4": "0.0.4",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=/string-replace/build react-scripts build",
+    "build": "PUBLIC_URL=/string-replace react-scripts build;rm -rf docs;mv build docs;cp docs/index.html docs/404.html",
     "buildpackage": "babel src/lib --out-dir dist/;rm dist/*.test.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
