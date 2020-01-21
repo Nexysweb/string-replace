@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/Nexysweb/string-replace.svg?style=svg)](https://circleci.com/gh/Nexysweb/workflows/string-replace)
 
-* [see it in action](https://nexysweb.github.io/string-replace/build)
+* [see it in action](https://nexysweb.github.io/string-replace)
  
 ## replace i18n
 
