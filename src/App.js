@@ -84,7 +84,7 @@ function App() {
             <Form.Textarea name="dict" value={dict} onChange={e => setDict(e.value)}/>
           </div>
         </div>
-        <input type="submit"/>
+        <input type="submit" className="btn btn-primary"/>
       </form>
       {/*renderResult()*/}
       {renderLink()}
