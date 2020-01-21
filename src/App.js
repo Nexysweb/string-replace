@@ -63,14 +63,6 @@ function App() {
     return <a href={dl} download={filename}>Download</a>
   }
 
-  /*const renderResult = () => {
-    if (!result) {
-      return null;
-    }
-
-    return <pre>{result}</pre>;
-  }*/
-
   return (
     <div className="container">
       <form onSubmit={handleSubmit}>
